@@ -24,6 +24,6 @@ jobs:
 
       - name: Executar script de monitoramento
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: 8923049263:AAF3reGJ9UL0V7g9sicL2DyS_YNpApJoMpg
+          TELEGRAM_CHAT_ID: 8617930268
         run: python monitor.py
