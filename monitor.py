@@ -59,7 +59,7 @@ def main():
     found_fgv, url_fgv = check_fgv()
     found_cfc, url_cfc = check_cfc()
     
-    if true    
+    if True:
         sources = [s for s in [url_fgv, url_cfc] if s]
         message = (
             "🚨 *ALERTA CFC* 🚨\n\n"
