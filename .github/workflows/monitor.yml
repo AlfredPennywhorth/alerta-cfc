@@ -2,7 +2,7 @@ name: Monitor CFC Edital
 
 on:
   schedule:
-    - cron: '0 * * * *' # Executa a cada hora
+    - cron: '0 12 * * *' # Executa todos os dias às 12hs
   workflow_dispatch: # Permite execução manual pelo painel do GitHub
 
 jobs:
